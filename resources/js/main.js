@@ -1,13 +1,8 @@
-function openNav(){
-	document.getElementById("mynav").style.width = "100%";
-}
-function closeNav(){
-	document.getElementById("mynav").style.width = "0%";
-}
-$('.collapse').collapse()
-$('#myCollapsible').collapse({
-	toggle: false
-  })
-  $('#myCollapsible').on('hidden.bs.collapse', function () {
-	// do something…
-  })
+$(document).ready(function(){           
+  $(".child_01").click(function(){
+    $(".content_child_01").addClass("show_hide");
+  });
+  $(".child_01").click(function(){
+    $(".show_hide").toggle("slow");
+  });
+});
