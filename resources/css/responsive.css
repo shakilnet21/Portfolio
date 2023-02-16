@@ -9,10 +9,7 @@
 
 
 @media only screen and (min-width: 992px){
-	.row{
-		width:90%;
-		height:auto;
-	}
+	
 }
 /*
 		Tablet Layout: 768px.
@@ -24,42 +21,11 @@ cols    1     2      3      4      5      6      7      8
 px      68    160    252    344    436    528    620    712    */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	.row{
-		width:90%;
+	.bangla_sidebar h3{
+		text-align: center !important;
 	}
-	.service_section .hero h1{
-		font-size: 1.7em;
-	}
-	.skill_section .span_1_of_3{
-		width:49.2%;
-	}
-	.skill_section .span_1_of_3:nth-child(3){
-		width:100%;
-		margin-left:0;
-	}
-	.portfolio_section .span_1_of_4{
-		width:49.2%;
-	}
-	.portfolio_section .span_1_of_4:nth-child(3){
-		margin-left:0;
-	}
-	.testimonial_section .span_1_of_5{
-		width:49.2%;
-	}
-	.testimonial_section .span_1_of_5:nth-child(3){
-		margin-left:0;
-	}
-	.testimonial_section .span_1_of_5:nth-child(5){
-		width:100%;
-		margin-left:0;
-	}
-	.contact_section .span_1_of_6{
-		width:49.2%;
-	}
-	.contact_section .span_1_of_6:nth-child(3),
-	.contact_section .span_1_of_6:nth-child(5){
-		margin-left:0;
-	}
+
+
 }
 	
 
@@ -75,56 +41,10 @@ cols    1     2      3
 px      68    160    252    */
 
 @media only screen and (max-width: 767px) {
-	.row{
-		width:100%;
+	.bangla_sidebar h3{
+		text-align: center !important;
 	}
-	header .main_nav{
-		display:none;
-	}
-	header .mobile_menu span{
-		display:block;
-	}
-	.service_section .hero h1{
-		font-size: 1.7em;
-	}
-	.skill_section .span_1_of_3{
-		width:49.2%;
-	}
-	.skill_section .span_1_of_3:nth-child(3){
-		width:100%;
-		margin-left:0;
-	}
-	.portfolio_section .span_1_of_4{
-		width:49.2%;
-	}
-	.portfolio_section .span_1_of_4:nth-child(3){
-		margin-left:0;
-	}
-	.testimonial_section .span_1_of_5{
-		width:49.2%;
-	}
-	.testimonial_section .span_1_of_5:nth-child(3){
-		margin-left:0;
-	}
-	.testimonial_section .span_1_of_5:nth-child(5){
-		width:100%;
-		margin-left:0;
-	}
-	.contact_section .span_1_of_6{
-		width:49.2%;
-	}
-	.contact_section .span_1_of_6:nth-child(3),
-	.contact_section .span_1_of_6:nth-child(5){
-		margin-left:0;
-	}
-	.footer_section .span_1_of_2{
-		width:100%;
-		margin-left:0;
-	}
-	.footer_section .span_1_of_2,
-	.footer_section .span_1_of_2:nth-child(2) p{
-		text-align:center;
-	}
+
 }
 
 
@@ -138,56 +58,7 @@ cols    1     2      3      4      5
 px      68    160    252    344    436    */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	.row{
-		width:100%;
-	}
-	header .main_nav{
-		display:none;
-	}
-	header .mobile_menu span{
-		display:block;
-	}
-	.service_section .hero h1{
-		font-size: 1.7em;
-	}
-	.skill_section .span_1_of_3{
-		width:49.2%;
-	}
-	.skill_section .span_1_of_3:nth-child(3){
-		width:100%;
-		margin-left:0;
-	}
-	.portfolio_section .span_1_of_4{
-		width:49.2%;
-	}
-	.portfolio_section .span_1_of_4:nth-child(3){
-		margin-left:0;
-	}
-	.testimonial_section .span_1_of_5{
-		width:49.2%;
-	}
-	.testimonial_section .span_1_of_5:nth-child(3){
-		margin-left:0;
-	}
-	.testimonial_section .span_1_of_5:nth-child(5){
-		width:100%;
-		margin-left:0;
-	}
-	.contact_section .span_1_of_6{
-		width:49.2%;
-	}
-	.contact_section .span_1_of_6:nth-child(3),
-	.contact_section .span_1_of_6:nth-child(5){
-		margin-left:0;
-	}
-	.footer_section .span_1_of_2{
-		width:100%;
-		margin-left:0;
-	}
-	.footer_section .span_1_of_2,
-	.footer_section .span_1_of_2:nth-child(2) p{
-		text-align:center;
-	}
+
 }
 
 

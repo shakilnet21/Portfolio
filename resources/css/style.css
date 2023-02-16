@@ -1,3 +1,4 @@
+/*Regular CSS*/
 * {
 	margin: 0;
 	padding: 0;
@@ -15,34 +16,50 @@
 body {
 	font-family: 'SolaimanLipi', Arial, sans-serif !important;
 }
+p{
 
-.carousel-item img {
-	width: 100%;
-	height: 512px;
+}
+h1{
+
+}
+h2{
+
+}
+h3{
+
+}
+h4{
+
+}
+h5{
+
+}
+h6{
+
 }
 
 .container {
-	margin-top: 50px;
+	margin-top: 80px;
 }
 
-.main {
-	margin-top:90px;
-	display: block;
+/*index.html page css*/
+.service div p{
+	justify-content: center !important;
 }
 
-.content {
-	float: left;
-	width: 80%;
-}
 
-.sidebar {
-	float: right;
-	width: 20%;
+/*bcs_preparation.html page css*/
+.accordion-button:not(.collapsed) {
+	color: #198754;
+	background-color: #e7f1ff;
+	box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
+  }
+.accordion-body h5{
+	font-size:0.95rem;
 }
-
-.sidebar ul li {
-	list-style: none;
-}
-.footer{
-	
-}
+.list-group-item.active {
+	z-index: 2;
+	color: #fff;
+	background-color: #198754;
+	border-color: #198754;
+  }
